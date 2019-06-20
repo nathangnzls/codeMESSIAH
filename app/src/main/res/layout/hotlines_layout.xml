@@ -1,0 +1,418 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/hot">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="20dp">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Emergency Hotline"
+                android:id="@+id/textView25asdawsd"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="911"
+                android:id="@+id/eh"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:clickable="true"
+                android:editable="false"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Citizen Complaints"
+                android:id="@+id/textView25asd"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="8888"
+                android:id="@+id/cc"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:clickable="true"
+                android:editable="false"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PAGASA"
+                android:id="@+id/textView2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="(632) 4942696"
+                android:id="@+id/pagasa1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:clickable="true"
+                android:editable="false"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="PHIVOLCS"
+                android:id="@+id/textView4"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="426-1468"
+                android:id="@+id/phivolcs1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="927-4524"
+                android:id="@+id/phivolcs2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="NDRRMC"
+                android:id="@+id/asdasd"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="911 1406"
+                android:id="@+id/ndrrmc1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="912 2665"
+                android:id="@+id/ndrrmc2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="912 5668"
+                android:id="@+id/ndrrmc3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="912 0441"
+                android:id="@+id/ndrrmc4"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Philippine Coast Guard"
+                android:id="@+id/asdasdasd"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="527-8481"
+                android:id="@+id/pcg1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Philippine National Police"
+                android:id="@+id/textView10"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="+632 723 0401"
+                android:id="@+id/pnp1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Bureau of Fire Protection"
+                android:id="@+id/textView12"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="729 5166"
+                android:id="@+id/bfp1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="410-6254"
+                android:id="@+id/bfp2"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:textIsSelectable="true"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="431-8859"
+                android:id="@+id/bfp3"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="407-1230"
+                android:id="@+id/bfp4"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DSWD"
+                android:id="@+id/textView14"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="931-8068"
+                android:id="@+id/dswd1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="MMDA"
+                android:id="@+id/textView16"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="136"
+                android:id="@+id/mmda1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Philippine Red Cross"
+                android:id="@+id/textView18"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="790 2300"
+                android:id="@+id/prc1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="DPWH"
+                android:id="@+id/textView20"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="304 3000"
+                android:id="@+id/dpwh1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Manila Water"
+                android:id="@+id/textView22"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="1627"
+                android:id="@+id/mw1"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="Meralco"
+                android:id="@+id/textView24"
+                android:layout_gravity="center_horizontal"
+                android:textColor="@color/red"
+                android:paddingBottom="5dp"
+                android:textStyle="bold"
+                android:textSize="30dp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="16211"
+                android:id="@+id/meralco"
+                android:layout_gravity="center_horizontal"
+                android:textColor="#ff000509"
+                android:paddingBottom="15dp"
+                android:drawableRight="@drawable/call"/>
+        </LinearLayout>
+
+    </ScrollView>
+</LinearLayout>

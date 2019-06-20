@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="net.netne.cmessiah.codemessiah.MainActivity">
+    <item
+        android:id="@+id/action_dial"
+        android:title="Dial"
+        android:orderInCategory="2"
+        android:icon="@drawable/call"
+        app:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource"/>
+    <item
+        android:id="@+id/action_sms"
+        android:title="Dial"
+        android:orderInCategory="1"
+        android:icon="@android:drawable/ic_menu_send"
+        app:showAsAction="ifRoom"
+        tools:ignore="AppCompatResource"/>
+
+
+</menu>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:orientation="vertical" >
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:id="@+id/isfirstrunTV"
+        android:text="Welcome to Code:Messiah! Before you proceed, Please make sure that you fill-in the required fields in order to use the sms properly. Edit this anytime by going to settings\n\n"
+        />
+
+
+
+
+
+    <TextView
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Enter the phone number of the person you want to reach in case of emergency."
+        />
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="2">
+        <Spinner
+            android:layout_width="fill_parent"
+            android:layout_weight="1.2"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerNum2"
+            android:layout_marginBottom="15dp" />
+        <EditText
+            android:layout_weight=".8"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/phoneno"
+            android:layout_marginBottom="25dp"
+            android:inputType="number"
+            android:maxLines="1"
+            android:maxLength="7"
+            android:hint="Contact Number"/>
+
+    </LinearLayout>
+</LinearLayout>

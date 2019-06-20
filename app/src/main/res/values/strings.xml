@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Code:MESSIAH</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="temperature">Temperature</string>
+    <string name="condition">Condition</string>
+    <string name="location">Location</string>
+    <string name="powered_by_yahoo">powered by Yahoo!</string>
+    <string name="condition_icon">Condition Icon</string>
+    <string name="loading">Loading&#8230;</string>
+    <string name="temperature_output">%1$d&#176;%2$s</string>
+    <string name="update_location">Update Location</string>
+    <string name="your_string">This is an <u>underline</u> text demo for TextView.</string>
+
+
+
+    <string-array name="location">
+        <item>Ilocos Region (Region I)</item>
+        <item>Cagayan Valley (Region II)</item>
+        <item>Central Luzon (Region III)</item>
+        <item>CALABARZON (Region IV-A)</item>
+        <item>MIMAROPA (Region IV-B)</item>
+        <item>Bicol Region (Region V)</item>
+        <item>Western Visayas (Region VI)</item>
+        <item>Central Visayas (Region VII)</item>
+        <item>Eastern Visayas (Region VIII)</item>
+        <item>Zamboanga Peninsula (Region IX)</item>
+        <item>Northern Mindanao (Region X)</item>
+        <item>Davao Region (Region XI)</item>
+        <item>SOCCSKSARGEN (Region XII)</item>
+        <item>Caraga (Region XIII)</item>
+        <item>Autonomous Region in Muslim Mindanao (ARMM)</item>
+        <item>Cordillera Administrative Region (CAR)</item>
+        <item>National Capital Region (NCR) (Metro Manila)</item>
+    </string-array>
+    <string-array name="email">
+        <item>/@gmail.com</item>
+        <item>/@yahoo.com</item>
+        <item>/@rocketmail.com</item>
+        <item>/@ymail.com</item>
+    </string-array>
+    <string-array name="numberprefix">
+        <!-- globe-->
+        <item>0900</item>
+        <item>0905</item>
+        <item>0906</item>
+        <item>0907</item>
+        <item>0908</item>
+        <item>0909</item>
+        <item>0910</item>
+        <item>0911</item>
+        <item>0912</item>
+        <item>0913</item>
+        <item>0914</item>
+        <item>0915</item>
+        <item>0916</item>
+        <item>0917</item>
+        <item>0918</item>
+        <item>0919</item>
+        <item>0920</item>
+        <item>0921</item>
+        <item>0922</item>
+        <item>0923</item>
+        <item>0924</item>
+        <item>0925</item>
+        <item>0926</item>
+        <item>0927</item>
+        <item>0928</item>
+        <item>0929</item>
+        <item>0930</item>
+        <item>0931</item>
+        <item>0932</item>
+        <item>0933</item>
+        <item>0934</item>
+        <item>0935</item>
+        <item>0936</item>
+        <item>0938</item>
+        <item>0939</item>
+        <item>0940</item>
+        <item>0942</item>
+        <item>0943</item>
+        <item>0944</item>
+        <item>0945</item>
+        <item>0946</item>
+        <item>0947</item>
+        <item>0948</item>
+        <item>0949</item>
+        <item>0950</item>
+        <item>0975</item>
+        <item>0976</item>
+        <item>0989</item>
+        <item>0994</item>
+        <item>0995</item>
+        <item>0996</item>
+        <item>0997</item>
+        <item>0998</item>
+        <item>0999</item>
+        <item>0937</item>
+        <item>0977</item>
+        <item>0978</item>
+        <item>0979</item>
+    </string-array>
+</resources>
